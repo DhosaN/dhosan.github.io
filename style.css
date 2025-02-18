@@ -165,7 +165,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    background: url("images/banner.jpg") no-repeat center;
+    background: url("images/background-black.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: 500px;
@@ -365,10 +365,10 @@ section .title::after{
     width: 80%;
 }
 .skills-content .right .js::before{
-    width: 65%;
+    width: 85%;
 }
 .skills-content .right .php::before{
-    width: 60%;
+    width: 75%;
 }
 .skills-content .right .mysql::before{
     width: 70%;
@@ -419,6 +419,15 @@ section .title::after{
 }
 .teams .carousel .card:hover a{
     color: #000;
+}
+.teams1{
+  display: flex;
+  background: url("images/background-black.jpg") no-repeat center;
+  height: 100vh;
+  color: #fff;
+  min-height: 500px;
+  background-size: cover;
+  background-attachment: fixed;
 }
 .owl-dots{
     text-align: center;
